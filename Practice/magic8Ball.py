@@ -19,9 +19,8 @@ def getAnswer(answerNumber):
         return 'Outlook not so good'
     elif answerNumber == 9:
         return 'Very doubtful'
-
-#r = random.randint(1, 9)
-#fortune = getAnswer(r)
-#print(fortune)
-
-print(getAnswer(random.randint(1, 9)))
+        
+r = random.randint(1, 9)
+fortune = getAnswer(r)
+print(fortune)
+    

@@ -1,9 +1,6 @@
-print('My name is')
-for i in range(5):
-    print('Jimmy Five Times (' + str(i) + ')')
-    
-for i in range(12, 16):
-    print(i)
+print('My name is ')
 
-for i in range(0, 10, 2):
-    print(i)
+i = 0
+while i < 5:
+    print('Jimmy Five Times (' + str(i) + ')')
+    i = i + 1
